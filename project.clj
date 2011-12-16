@@ -1,3 +1,6 @@
-(defproject noir-template "1.0.0-SNAPSHOT"
-  :description "FIXME: write description"
+(defproject noir-template "0.1.0"
+  :description "Template generator for Noir projects."
   :dependencies [[org.clojure/clojure "1.3.0"]])
+
+
+

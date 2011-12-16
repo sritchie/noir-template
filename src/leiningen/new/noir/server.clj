@@ -1,7 +1,7 @@
 (ns {{name}}.server
   (:require [noir.server :as server]))
 
-(server/load-views "src/clj/{{name}}/views/")
+(server/load-views "src/clj/{{sanitized}}/views/")
 
 (defn mk-opts [mode]
   {:mode (keyword (or mode :dev))

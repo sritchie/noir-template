@@ -9,6 +9,6 @@
             :content "width=device-width, initial-scale=1.0, user-scalable=no"}]
     [:meta {:content "text/html;charset=UTF-8"
             :http-equiv "content-type"}]
-    [:title "{{name"]
+    [:title "{{name}}"]
     (include-css "/css/reset.css")]
    [:body content]))

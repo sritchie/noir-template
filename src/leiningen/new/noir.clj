@@ -8,7 +8,7 @@
   [name]
   (let [data {:name name
               :sanitized (sanitize name)}]
-    (println "Generating a heroku-ready noir project called" name ".")
+    (println (str "Generating a heroku-ready noir project called " name "."))
     (->files data
              ["project.clj" (render "project.clj" data)]
              ["README.md" (render "README.md" data)]
@@ -19,7 +19,7 @@
              ["src/clj/{{sanitized}}/server.clj" (render "server.clj" data)]
              ["src/clj/{{sanitized}}/views/common.clj" (render "common.clj" data)]
              ["src/clj/{{sanitized}}/views/welcome.clj" (render "welcome.clj" data)]
-
+             
              ;; cljs
              ["src/cljs/{{sanitized}}/mainview.cljs" (render "mainview.cljs" data)]
              ["src/cljs/{{sanitized}}/repl.clj" (render "repl.cljs" data)]

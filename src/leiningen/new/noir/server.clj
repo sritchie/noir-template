@@ -5,7 +5,7 @@
 
 (defn mk-opts [mode]
   {:mode (keyword (or mode :dev))
-   :ns 'contour})
+   :ns '{{name}}})
 
 (def handler
   "Handler for the {{name}} server."

@@ -1,5 +1,5 @@
 (ns {{name}}.views.common
-  (:use [noir.core :only (defpartial)]
+    (:use [noir.core :only (defpartial)]
         [hiccup.page-helpers :only (include-css html5)]))
 
 (defpartial layout [& content]

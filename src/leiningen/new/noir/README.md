@@ -9,7 +9,7 @@ It also uses the wonderful [ClojureScript](https://github.com/clojure/clojurescr
 To get started, you'll need to install a few tools, but it's painless.
 
 * {{name}} (this project)
-* Leiningen (Build tool for clojure, located [on github](https://github.com/technomancy/leiningen))
+* Leiningen (Build tool for clojure, located [on github](https://github.com/technomancy/leiningen) )
 * ClojureScript
 * [cljs-watch](https://github.com/ibdknox/cljs-watch)
 
